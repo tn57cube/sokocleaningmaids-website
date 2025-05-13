@@ -1,0 +1,48 @@
+/* footer styles */
+.footer {
+    background-color: rgb(140, 187, 140);
+    color: rgb(103, 70, 27);
+    font-family: "Ubuntu Condensed" ,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    height: 310px;
+    filter: brightness(80%);
+}
+
+.footer > .footer-phone span {
+margin-left: 10px;
+margin-right: 10px;
+font-size: 1em;
+letter-spacing: 2px;
+}
+
+
+.footer > .footer-phone-hours {
+    font-size: 10em;
+    letter-spacing: 2px;
+}
+
+.footer > .social-media-icons-wrapper {
+margin-top: 10px;
+margin-bottom: 0.5px;
+width: 250px;
+display: flex;
+justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+  font-size: 1.5em;
+  color: rgb(103, 70, 27);
+  transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: bisque;
+}
